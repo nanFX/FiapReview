@@ -14,12 +14,18 @@ public class Teste {
         poupanca.retirar(50);
         System.out.println(poupanca.getSaldo());
 
-
-        /*       if (cc instanceof Conta){
-            System.out.println("cc é do tipo Conta");
-        }else{
-            System.out.println("cc não é do tipo Conta");
+        //Laço de repetição While
+        int i = 0;
+        while (i < 10) {
+            i = i + 1;
+            System.out.println(i);
         }
-        */
+
+        //Laço de repetição Do-While
+        i = 0;
+        do {
+            i = i + 1;
+            System.out.println(i);
+        }while (i < 10);
     }
 }

@@ -1,4 +1,6 @@
-package br.com.fiap.banco;
+package br.com.fiap.listas;
+
+import br.com.fiap.banco.Conta;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package br.com.fiap.banco;
+package br.com.fiap.listas;
 
 public class TesteMatriz {
     public static void main(String[] args) {

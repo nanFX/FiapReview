@@ -15,10 +15,16 @@ public class Conta {
     }
 
     public void depositar(double valor) {
+        if (valor < 0){
+            throw new IllegalArgumentException();
+        }
         saldo = saldo + valor;
     }
 
-    public void retirar(double valor) {
+    public void retirar(double valor) throws Exception{
+        if (valor > saldo){
+            throw new Exception("Saldo insuficiente!");
+        }
         saldo = saldo - valor;
     }
 

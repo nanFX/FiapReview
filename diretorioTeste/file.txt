@@ -1,0 +1,3 @@
+Escrevendo no arquivo criado
+Novo diretório
+Novo Arquivo

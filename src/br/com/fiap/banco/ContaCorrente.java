@@ -14,7 +14,7 @@ public class ContaCorrente extends Conta{
     }
 
     @Override
-    public void retirar(double valor){
+    public void retirar(double valor) throws Exception {
         valor = valor + 10;
 
         super.retirar(valor);

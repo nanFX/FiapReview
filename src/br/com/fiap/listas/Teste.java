@@ -13,7 +13,7 @@ public class Teste {
         System.out.println(cc.getSaldo());
 
         Conta poupanca = new Conta(111, 222, 1000);
-        poupanca.retirar(50);
+      //  poupanca.retirar(50);
         System.out.println(poupanca.getSaldo());
 
         //Laço de repetição While
